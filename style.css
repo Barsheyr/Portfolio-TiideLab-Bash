@@ -14,10 +14,24 @@ header {
 }
 
 .logo {
-  color: white;
+  color: black;
   font-size: 50px;
 }
 nav {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 2%; */
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-shadow: 3px 3px 2px #888888;
+}
+
+.hee {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +50,7 @@ ul {
 li a {
   padding: 15px;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 li a:hover {
@@ -47,6 +61,7 @@ li a:hover {
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
+  padding: 10%;
 }
 
 .head-title {
@@ -70,7 +85,7 @@ p {
 }
 
 .head-btn {
-  width: 15%;
+  width: 20%;
   margin: 0 auto;
   padding: 10px;
   align-items: center;
@@ -109,16 +124,35 @@ h2 {
 }
 
 .about-text {
-  width: 50%;
+  width: 100%;
+  padding-right: 20%;
 }
 
 .about-para {
   color: black;
   font-size: 20px;
 }
+.about-img {
+  width: 50%;
+}
 
+.photo-section {
+  height: 50vh;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.gallery-img {
+  width: 15%;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .img-portfolio {
-  width: 40%;
+  width: 100%;
 }
 
 /* -------------------- skills ---------------------------*/
@@ -166,7 +200,7 @@ h2 {
 }
 
 .img-skill {
-  border-radius: 20%;
+  border-radius: 5%;
   width: 10%;
 }
 
@@ -193,6 +227,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   margin-top: 3%;
+  flex-direction: row;
 }
 
 .get-in-touch-head {

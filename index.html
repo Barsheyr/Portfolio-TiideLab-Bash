@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="queries.css" type="text/css" />
 
     <title>Portfolio</title>
   </head>
@@ -18,12 +20,14 @@
     <!------------------------------ header --------------------------->
     <header>
       <nav>
-        <div class="logo">BA</div>
-        <ul>
-          <li><a href=""> Home </a></li>
-          <li><a href=""> About Me </a></li>
-          <li><a href=""> Contact </a></li>
-        </ul>
+        <div class="hee">
+          <div class="logo">BA</div>
+          <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#about"> About Me </a></li>
+            <li><a href="#contact"> Contact </a></li>
+          </ul>
+        </div>
       </nav>
 
       <div class="head-container">
@@ -39,7 +43,7 @@
 
     <!---------------------- About me ----------------------->
     <section class="about-me">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <div class="about-me-section">
         <div class="about-text">
           <p class="about-para">
@@ -51,7 +55,22 @@
             going for a walk, run or sports.
           </p>
         </div>
-        <img src="portfoliio.jpg" alt="" class="img-portfolio" />
+        <div class="about-img">
+          <img src="portfoliio.jpg" alt="" class="img-portfolio" />
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-section">
+      <div class="photo-gallery">
+        <img
+          src="/images/4BAE62A4-8D28-4196-AF72-EEC58E84CBD2.jpg"
+          alt=""
+          class="gallery-img"
+        />
+        <img src="/images/IMG_0493.JPG" alt="" class="gallery-img" />
+        <img src="/images/IMG_8366.JPG" alt="" class="gallery-img" />
+        <img src="/images/IMG_0495.JPG" alt="" class="gallery-img" />
       </div>
     </section>
 
@@ -76,7 +95,7 @@
     <!------------------- contact -------------------->
 
     <section class="contact">
-      <h2>Contact Me</h2>
+      <h2 id="contact">Contact Me</h2>
 
       <div class="contact-container">
         <div class="get-in-touch-head">
@@ -154,6 +173,7 @@
     <footer>
       <div class="footer-container">
         <div class="logo">BA</div>
+
         <ul class="footer-logo">
           <li><a href=""> Home </a></li>
           <li><a href=""> About Me </a></li>

@@ -1,0 +1,128 @@
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .head-para {
+    font-size: 15px;
+    margin-top: 5%;
+  }
+
+  .head-btn {
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  .head-container {
+    padding-top: 15%;
+  }
+
+  .about-me-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    margin-top: 15%;
+  }
+
+  .about-para {
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .photo-gallery {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .gallery-img {
+    width: 50%;
+  }
+
+  .photo-section {
+    height: 150vh;
+  }
+  .stacks {
+    margin-top: 10%;
+  }
+  .skill-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-para {
+    font-size: 30px;
+  }
+  .skill-dash {
+    width: 0.1%;
+    height: 10vh;
+    color: white;
+    border: 0.5px solid white;
+  }
+  .img-skill {
+    margin-top: 5%;
+    width: 15%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get-in-touch-head {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .get-in-touch-para {
+    width: 100%;
+  }
+
+  .social-icons {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  .form-container {
+    max-width: 100%;
+    margin-top: 15%;
+  }
+  footer {
+    height: 100vh;
+    margin-top: 20%;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20%;
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20%;
+  }
+}
